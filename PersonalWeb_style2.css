@@ -117,7 +117,9 @@ body {
 }
 
 /* Hide the images by default */
-
+.mySlides {
+  display: none;
+}
 .mySlides img {
   width: 100%; /* This will make the image responsive, taking 100% width of its container */
   max-width: 200px; /* You can adjust this value to your preferred maximum width */
