@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+#top-layer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+#name-container h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.contact-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+#header {
+  background-color: #000;
+  padding: 140px;
+  text-align: center;
+  color: #fff;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.description {
+  max-width: 400px;
+}
+#social-links {
+  padding: 20px;
+  text-align: center;
+}
+#social-links img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+#portfolio {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+#portfolio_title {
+  font-family: 'bebas neue', sans-serif; /* Escolha a fonte desejada */
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #333; /* Escolha a cor do texto desejada */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Espaço acima do título */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+.portfolio-item {
+  text-align: center;
+}
+.portfolio-item img {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15%;
+}
+.portfolio-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-item {
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.portfolio-description {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin-left: auto;
+  margin-right: auto;
+}
+#text-container {
+  max-width: 200px;
+  margin-top: 20px;
+  align-items: center;
+  margin-right: 100px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 200px;
+  margin-top: 20px;
+  align-items: center;
+  margin-left: 350px;
+  border-radius: 15%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.mySlides img {
+  width: 100%; /* This will make the image responsive, taking 100% width of its container */
+  max-width: 200px; /* You can adjust this value to your preferred maximum width */
+  height: auto; /* This will maintain the aspect ratio of the image */
+  display: flex; /* This will remove any default margins or padding applied to the image */
+  margin: 0 auto; /* This will center the image within its container */
+  border-radius: 30px;
+}
+
+/* Fade animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+

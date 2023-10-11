@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="UTF-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>João Ricardo Castro Martins Ribeiro</title>
+  <link rel='stylesheet' href='PersonalWeb_style2.css'>
+</head>
+<body>
+    <section id="top-layer">
+        <div id="name-container">
+          <h1>João Ricardo Castro Martins Ribeiro</h1>
+        </div>
+        <div id="contact-link-container">
+          <a href="#contactMe" class="contact-link">Contact Me</a>
+        </div>
+      </section>
+    <div id='contactMe' style='position: fixed; right: 0; bottom: 0; background-color: #080b0d; color: white; padding: 10px; z-index: 1000; border-top-left-radius: 10px; font-family: Roboto, sans-serif;'><span class='info-icon' style='margin-right: 5px; font-size: 1.2em;'>&#x2139;</span> Contact me <b><a href='https://github.com/joaorcmr' style='color: white;' target="_blank">GitHub</a></b>
+</div>
+<section id='header'>
+    <div class='profile-container'>
+        <img src='img/Profile_picture.png' alt='Profile Picture' class='profile-pic'>
+        <div class='description'>
+            <p style="max-width: 600px; text-align: left; margin-bottom: 16px;">
+                Cresci com pais médicos, o que naturalmente instigou em mim uma busca por conhecimento e excelência desde a infância. Ingressei na FGV de São Paulo para estudar Administração de Empresas, e durante meu ano acadêmico na instituição, tive a honra de fazer parte da Liga de Finanças Quantitativas.
+            </p>
+            <p style="max-width: 600px; text-align: left; margin-bottom: 16px;">
+                Minha trajetória profissional iniciou-se na 4-Infra, consultoria especializada em portos, onde desempenhei o papel de Analista por seis meses. Paralelamente, envolvi-me na concepção de uma startup inovadora na área de saúde e lifestyle, contribuindo com ideias frescas e conexões com a área da saúde.
+            </p>
+            <p style="max-width: 600px; text-align: left; margin-bottom: 16px;">
+                Hoje, meu foco acadêmico é em Ciências da Computação no Insper, onde participo ativamente do projeto 'B-Connect', uma iniciativa que reflete minha constante busca por inovação e aprendizado. Com fluência em inglês, estou preparado para enfrentar desafios globais, sempre com respeito e disposição para aprender mais a cada dia.
+            </p>
+        </div>
+    </div>
+</section>
+</p>
+</div>
+</div>
+</section>
+<section id='social-links'>
+<a href='https://www.instagram.com' target='_blank'><img src='img/instagram_logo.png' alt='Instagram'></a>
+<a href='https://github.com' target='_blank'><img src='img/GitHub_logo.png' alt='GitHub'></a>
+<a href='https://www.linkedin.com' target='_blank'><img src='img/linkedin_logo.png' ></a>
+<a href='https://wa.me' target='_blank'><img src='img/whatsapp_logo.png' alt='WhatsApp'></a>
+</section>
+</section>
+<section id='portfolio' style="display: flex; align-items: center;">
+    <div class="slideshow-container" style="width: 50%;">
+        <div class="mySlides fade">
+            <img src='img/work_1.png' alt='Work 1' style="width: 100%; height: auto; border-radius: 30px;">
+        </div>
+        <div class="mySlides fade">
+            <img src='img/work_2.png' alt='Work 2' style="width: 100%; height: auto; border-radius: 30px;">
+        </div>
+        <div class="mySlides fade">
+            <img src='img/work_3.png' alt='Work 3' style="width: 100%; height: auto; border-radius: 30px;">
+        </div>
+    </div>
+    <div class="text-container" style="width: 50%; padding: 20px;">
+        <div class="portfolio_title" style="font-weight: bold; margin-bottom: 8px;">
+            <p>Projeto B-Connect: Conectando a Comunidade Breaking</p>
+        </div>
+        <div class="description">
+            <p style="max-width: 400px; text-align: left; margin-bottom: 8px;">
+                        Desenvolvi um projeto inovador chamado B-Connect, uma plataforma digital criada para unir e celebrar a vibrante cultura 'breaking'. Este projeto foi concebido com a visão de fornecer um espaço exclusivo para indivíduos que compartilham uma paixão pelo 'breaking', permitindo que se conectem e interajam de maneira significativa.
+            </p>    
+            <p style="max-width: 400px; text-align: left; margin-bottom: 8px;">
+                        B-Connect não é apenas uma rede social; é um ponto de encontro para entusiastas, artistas e fãs do 'breaking'. Os usuários podem 'dar match', iniciar conversas e criar conexões autênticas com outros membros que compartilham interesses semelhantes.
+            </p>
+            <p style="max-width: 400px; text-align: left; margin-bottom: 8px;">    
+                        Uma das características distintivas do B-Connect é sua funcionalidade de filtro de eventos. Os usuários podem marcar eventos específicos organizados pela The Legits, uma das maiores empresas de eventos breaking do mundo e nossa parceira neste projeto. Ao selecionar os eventos que planejam participar, os usuários podem encontrar e conectar-se com outros que têm planos similares, facilitando o networking e a troca de experiências dentro da comunidade.
+            </p>
+            <p style="max-width: 400px; text-align: left; margin-bottom: 8px;">   
+                        Este projeto é um testemunho do meu compromisso em criar soluções digitais que não apenas atendem às necessidades dos usuários, mas também celebram e apoiam culturas e comunidades únicas e diversificadas.
+            </p>
+                
+            
+        </div>
+    </div>
+</section>
+<script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      slides[slideIndex-1].style.display = "block";  
+      setTimeout(showSlides, 5000); // Change image every 5 seconds
+    }
+    </script>
+    
+</body>
+</html>
+
+
